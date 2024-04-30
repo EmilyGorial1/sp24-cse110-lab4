@@ -64,8 +64,12 @@
      F.) True, Boolean(2) converts the number 2 into a boolean value which is true. Now both values are of the same type and are both 
          true, meaning they are strictly equivalent, hence why we get true.
 
-  15.) == checks if the values are equal regardless of their type. Using this operator, two values of different type can be equivalent. 
+15.) == checks if the values are equal regardless of their type. Using this operator, two values of different type can be equivalent. 
       On the other hand, === checks if values are strictly equivalent, meaning not only do the values have to be the same, but the data 
       types must also be the same.
 
+17.) The result would be newArray[2, 4, 6]. Before pushing each value into the array, the modifyArray function calls the doSomething 
+     function on each value, which just multiplies each value by 2, leaving us with the above array.
+
+     
   
