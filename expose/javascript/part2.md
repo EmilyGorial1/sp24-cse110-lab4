@@ -71,7 +71,7 @@
 17.) The result would be newArray[2, 4, 6]. Before pushing each value into the array, the modifyArray function calls the doSomething 
      function on each value, which just multiplies each value by 2, leaving us with the above array.
 
-19.) 
+19.) 1 4 3 2 
 
      
   
